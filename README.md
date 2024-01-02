@@ -9,9 +9,9 @@ https://vercel.com/font/mono
 
 ### Instructions
 
-Press ` Ctrl + Shift + P` in VSCode.
-Type `Open User Settings (JSON)`
-Copy and paste the settings here into your VSCode Settings JSON file.
-Press ` Ctrl + Shift + P` again.
-Type `Enable APC Extension`
-Enable the extension and restart VSCode.
+1. Press ` Ctrl + Shift + P` in VSCode.
+2. Type `Open User Settings (JSON)`
+3. Copy and paste the settings here into your VSCode Settings JSON file.
+4. Press ` Ctrl + Shift + P` again.
+5. Type `Enable APC Extension`
+6. Enable the extension and restart VSCode.
