@@ -1,0 +1,77 @@
+{
+  "apc.electron": {
+    "titleBarStyle": "hidden",
+    "trafficLightPosition": {
+      "x": 8,
+      "y": 10
+    }
+  },
+  "editor.lineHeight": 1.5,
+  "apc.header": {
+    "height": 30,
+    "fontSize": 10
+  },
+  "apc.listRow": {
+    "height": 30,
+    "fontSize": 13,
+    "lists": [
+      "customview-tree",
+      "results",
+      "open-editors",
+      "explorer-folders-view",
+      "outline-tree",
+      "scm-view",
+      "debug-view-content",
+      "debug-breakpoints",
+      "tree"
+    ]
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontFamily": "Geist Mono",
+  "glassit.alpha": 245,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "onFocusChange",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "gitlens.ai.experimental.provider": "openai",
+  "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo-1106",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "workbench.iconTheme": "moxer-icons",
+  "workbench.colorTheme": "Aura Dark (Soft Text)",
+  "workbench.settings.editor": "json",
+  "breadcrumbs.enabled": false,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.inlineSuggest.enabled": true,
+
+  "apc.font.family": "Geist Mono",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 20,
+    "fontSize": 10
+  },
+
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "itemSize": 30,
+    "size": 30
+  },
+  "window.titleBarStyle": "native",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "terminal.integrated.env.windows": {},
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "phase"
+}
