@@ -5,7 +5,7 @@
 
 ### Font
 
-![https://vercel.com/font/mono][Vercel Font]
+![https://vercel.com/font/mono]
 
 ### Instructions
 
