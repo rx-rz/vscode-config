@@ -1,5 +1,6 @@
 {
   "apc.electron": {
+    //hide title bar
     "titleBarStyle": "hidden",
     "trafficLightPosition": {
       "x": 8,
@@ -29,8 +30,8 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.fontFamily": "Geist Mono",
-  "glassit.alpha": 245,
+  "editor.fontFamily": "Fira Code Regular",
+  "glassit.alpha": 250,
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -45,33 +46,55 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.enableSmartCommit": true,
+
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 4,
+  "editor.stickyScroll.enabled": true,
   "git.confirmSync": false,
   "workbench.iconTheme": "moxer-icons",
-  "workbench.colorTheme": "Aura Dark (Soft Text)",
+  "workbench.colorTheme": "Tokyo Night",
   "workbench.settings.editor": "json",
   "breadcrumbs.enabled": false,
   "editor.fontSize": 14,
   "editor.tabSize": 2,
   "editor.inlineSuggest.enabled": true,
 
-  "apc.font.family": "Geist Mono",
+  "apc.font.family": "Fira Code Regular",
   "apc.statusBar": {
     "position": "editor-bottom",
     "height": 20,
     "fontSize": 10
   },
 
-  "terminal.integrated.fontFamily": "Jetbrains Mono",
+  "terminal.integrated.fontFamily": "Fira Code Regular",
+  "editor.fontLigatures": true,
   "apc.activityBar": {
     "position": "bottom",
     "hideSettings": true,
-    "itemSize": 30,
-    "size": 30
+    "itemSize": 60,
+    "size": 60
   },
+  "chat.editor.lineHeight": 2,
+  "editor.lineNumbers": "off",
   "window.titleBarStyle": "native",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "terminal.integrated.env.windows": {},
   "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorBlinking": "phase"
+  "editor.cursorBlinking": "phase",
+  "workbench.sideBar.location": "right",
+  "yaml.schemas": {
+    "file:///c%3A/Users/Temiloluwa/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.bitbucket.enabled": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -1
 }
