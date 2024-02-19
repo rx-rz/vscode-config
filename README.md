@@ -2,10 +2,11 @@
 
 1. APC Customize UI
 2. Aura Theme
-
+3. Moxer Icons. 
 ### Font
 
-https://vercel.com/font/mono
+[https://vercel.com/font/mono](https://github.com/codewithbehzad/Best-Vs-Code-fonts-)
+Download and install any. I currently use Jetbrains Mono.
 
 ### Instructions
 
