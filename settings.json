@@ -1,13 +1,12 @@
 {
   "apc.electron": {
-    //hide title bar
     "titleBarStyle": "hidden",
     "trafficLightPosition": {
       "x": 8,
       "y": 10
     }
   },
-  "editor.lineHeight": 1.5,
+  "editor.lineHeight": 2,
   "apc.header": {
     "height": 30,
     "fontSize": 10
@@ -26,28 +25,31 @@
       "debug-breakpoints",
       "tree"
     ]
+    
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.fontFamily": "Fira Code Regular",
-  "glassit.alpha": 250,
+  "editor.fontFamily": "Jetbrains Mono",
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.autoSave": "onFocusChange",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.fontWeight": "600",
+  "terminal.integrated.fontWeight": "600",
   "gitlens.ai.experimental.provider": "openai",
   "gitlens.ai.experimental.openai.model": "gpt-3.5-turbo-1106",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "git.enableSmartCommit": true,
 
   "workbench.editor.limit.enabled": true,
+  "editor.minimap.enabled": false,
   "workbench.editor.limit.value": 4,
   "editor.stickyScroll.enabled": true,
   "git.confirmSync": false,
@@ -59,14 +61,14 @@
   "editor.tabSize": 2,
   "editor.inlineSuggest.enabled": true,
 
-  "apc.font.family": "Fira Code Regular",
+  "apc.font.family": "Jetbrains Mono",
   "apc.statusBar": {
     "position": "editor-bottom",
     "height": 20,
     "fontSize": 10
   },
 
-  "terminal.integrated.fontFamily": "Fira Code Regular",
+  "terminal.integrated.fontFamily": "Jetbrains Mono",
   "editor.fontLigatures": true,
   "apc.activityBar": {
     "position": "bottom",
@@ -75,7 +77,6 @@
     "size": 60
   },
   "chat.editor.lineHeight": 2,
-  "editor.lineNumbers": "off",
   "window.titleBarStyle": "native",
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
@@ -83,10 +84,6 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "phase",
   "workbench.sideBar.location": "right",
-  "yaml.schemas": {
-    "file:///c%3A/Users/Temiloluwa/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  },
-  "atlascode.bitbucket.enabled": false,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -96,5 +93,10 @@
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": -1
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -1,
+  "symbols.hidesExplorerArrows": false,
+
 }
